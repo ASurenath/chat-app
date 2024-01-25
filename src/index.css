@@ -1,0 +1,79 @@
+.body {
+    overflow-x: hidden;
+}
+
+.bubble {
+    display: inline-block;
+    width: fit-content;
+    margin: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+}
+
+.sent>.bubble {
+    background-color: rgba(67, 4, 47, 0.361);
+    color: white
+}
+
+.received>.bubble {
+    background-color: rgba(24, 27, 122, 0.476);
+    color: white
+}
+
+.received {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: start;
+
+}
+
+.sent {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: end;
+
+}
+
+.chatbody {
+    height: 80vh;
+    background: rgba(255, 255, 255, 0.143);
+    backdrop-filter: blur(20px);
+    padding: 10px;
+    overflow-y: scroll;
+    box-shadow: 0 0 100px rgb(39, 36, 84); 
+
+}   
+.notification {
+    margin: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.sender {
+    margin: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color:white;
+    text-shadow: none;
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 1px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background-color: rgb(19, 4, 62);
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
