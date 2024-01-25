@@ -3,7 +3,7 @@ import './App.css'
 import Join from './pages/Join'
 import Home from './pages/Home'
 import io from 'socket.io-client';
-const socket = io.connect('https://chat-app-server-7tp5.onrender.com'); // Replace with your server URL
+const socket = io.connect('https://chat-app-server-2-ekv0.onrender.com'); // Replace with your server URL
 
 
 
